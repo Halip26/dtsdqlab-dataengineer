@@ -28,6 +28,7 @@
   - [🖊 Contributing](#-contributing)
   - [🌐 Contact](#-contact)
   - [🎉 Courtesy](#-courtesy)
+  - [👀 Visit My Profile](#-visit-my-profile)
 
 ### ℹ️ You must login to [DQLab](https://academy.dqlab.id/) to access links below. Do not have an account? You can register [here](https://dqlab.id/).
 
@@ -868,4 +869,5 @@ Project Link: [https://github.com/Halip26/dtsdqlab-dataengineer](https://github.
 ## 🎉 Courtesy
 - [DQLab](https://dqlab.id)
 
-[![Visits Profile](https://github.com/Halip26)](https://github.com/Halip26)
+## 👀 Visit My Profile
+(https://github.com/Halip26)](https://github.com/Halip26)
