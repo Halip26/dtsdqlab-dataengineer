@@ -16,7 +16,7 @@
   - [🌟 About](#-about)
   - [📚 Table of Contents](#-table-of-contents)
     - [ℹ️ You must login to DQLab to access links below. Do not have an account? You can register [here](https://dqlab.id/).](#ℹ️-you-must-login-to-dqlab-to-access-links-below-do-not-have-an-account-you-can-register-here)
-    - [⚠️ Warning (updated at 22th March 2021) : If you encounter some issues, you perhaps need to change dataset URL from AWS to Google Cloud.](#️-warning-updated-at-22th-march-2021--if-you-encounter-some-issues-you-perhaps-need-to-change-dataset-url-from-aws-to-google-cloud)
+    - [⚠️ Warning (updated at 29th July 2022) : If you encounter some issues, you perhaps need to change dataset URL from AWS to Google Cloud.](#️-warning-updated-at-29th-july-2022--if-you-encounter-some-issues-you-perhaps-need-to-change-dataset-url-from-aws-to-google-cloud)
   - [Memahami Bahasa Pemrograman Fundamental](#memahami-bahasa-pemrograman-fundamental)
   - [Memahami Bahasa SQL dan Sistem Database Relasional agar dapat mengolah data di Perusahaan Yang Sudah Menerapkan Sistem IT](#memahami-bahasa-sql-dan-sistem-database-relasional-agar-dapat-mengolah-data-di-perusahaan-yang-sudah-menerapkan-sistem-it)
   - [Memahami Konsep dan Penerapan Exploratory Data Analysis dalam Studi Kasus Bisnis](#memahami-konsep-dan-penerapan-exploratory-data-analysis-dalam-studi-kasus-bisnis)
@@ -32,7 +32,7 @@
 
 ### ℹ️ You must login to [DQLab](https://academy.dqlab.id/) to access links below. Do not have an account? You can register [here](https://dqlab.id/).
 
-### ⚠️ Warning (updated at 22th March 2021) : If you encounter some issues, you perhaps need to change dataset URL from AWS to Google Cloud.
+### ⚠️ Warning (updated at 29th July 2022) : If you encounter some issues, you perhaps need to change dataset URL from AWS to Google Cloud.
 DQLab AWS dataset URL : https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/<NAME_OF_DATASET>.<csv_or_tsv> <br/>
 DQLab Google Cloud dataset URL : https://storage.googleapis.com/dqlab-dataset/<NAME_OF_DATASET>.<csv_or_tsv> <br/>
 <br>
