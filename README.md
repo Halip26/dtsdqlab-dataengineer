@@ -868,4 +868,4 @@ Project Link: [https://github.com/Halip26/dtsdqlab-dataengineer](https://github.
 ## 🎉 Courtesy
 - [DQLab](https://dqlab.id)
 
-[![Visits Badge](https://badges.pufler.dev/visits/Halip26/dtsdqlab-dataengineer)](https://github.com/Halip26/dtsdqlab-dataengineer)
+[![Visits Profile](https://github.com/Halip26)](https://github.com/Halip26)
