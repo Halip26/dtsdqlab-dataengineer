@@ -870,4 +870,4 @@ Project Link: [https://github.com/Halip26/dtsdqlab-dataengineer](https://github.
 - [DQLab](https://dqlab.id)
 
 ## 👀 Visit My Profile
-(https://github.com/Halip26)](https://github.com/Halip26)
+[(https://github.com/Halip26)](https://github.com/Halip26)
