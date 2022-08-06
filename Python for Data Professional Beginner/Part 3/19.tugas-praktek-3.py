@@ -18,4 +18,4 @@ class TenagaLepas(Karyawan):
     def __init__(self, nama, usia, pendapatan):
         super().__init__(nama, usia, pendapatan, 0)
     def tambahan_proyek(self, nilai_proyek):
-        self.pendapatan_tambahan += nilai_proyek * 0.01
+        self.pendapatan_tambahan += int(nilai_proyek * 0.01)
