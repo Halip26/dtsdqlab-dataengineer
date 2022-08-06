@@ -6,7 +6,7 @@ class Karyawan:
     # menjadi 5000000 saat tidak dispesifikasikan
     def __init__(self, nama, usia=21, pendapatan=5000000): 
         self.nama = nama
-        self.usia = usia
+        self.usia = usia 
         self.pendapatan = pendapatan 
         self.pendapatan_tambahan = 0
     def lembur(self):
