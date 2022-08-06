@@ -32,7 +32,7 @@ class IlmuwanData(Karyawan):
                  insentif_lembur = 150000):
         super().__init__(nama, usia, pendapatan, insentif_lembur) 
     def tambahan_proyek(self, nilai_proyek):
-        self.pendapatan_tambahan += 0.1 * nilai_proyek
+        self.pendapatan_tambahan += 0.1 * nilai_proyek 
 
 # Definisikan class PembersihData sebagai child class dari class TenagaLepas
 class PembersihData(TenagaLepas):
@@ -43,8 +43,6 @@ class PembersihData(TenagaLepas):
 class DokumenterTeknis(TenagaLepas):
     def __init__(self, nama, usia, pendapatan = 2500000): 
         super().__init__(nama, usia, pendapatan)
-        def tambahan_proyek(self, jumlah_tambahan): 
-            return
 
 # Definisikan class Perusahaan 
 class Perusahaan:
