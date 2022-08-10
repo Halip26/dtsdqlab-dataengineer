@@ -1,1 +1,1 @@
-select province, count(distinct order_id) as total_unique_order, sum(item_price) as revenue from sales_retail_2019 group by province;
+SELECT province, COUNT(distinct order_id) as total_unique_order, SUM(item_price) as revenue FROM sales_retail_2019 GROUP BY province;

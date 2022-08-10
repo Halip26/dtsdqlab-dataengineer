@@ -1,1 +1,1 @@
-select StudentID, upper(FirstName) as FirstName, lower(LastName) as LastName from students;
+SELECT StudentID, UPPER(FirstName) as FirstName, LOWER(LastName) as LastName FROM students;

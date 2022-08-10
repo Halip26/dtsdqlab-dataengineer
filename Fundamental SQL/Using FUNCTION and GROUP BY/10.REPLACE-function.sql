@@ -1,1 +1,1 @@
-select StudentID, Email, replace(Email, 'yahoo', 'gmail') as New_Email from students;
+SELECT StudentID, Email, REPLACE(Email, 'yahoo', 'gmail') as New_Email FROM students;

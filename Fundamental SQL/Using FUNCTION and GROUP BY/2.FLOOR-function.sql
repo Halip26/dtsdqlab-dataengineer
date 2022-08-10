@@ -1,1 +1,1 @@
-select StudentID, FirstName, LastName, floor(Semester1) as Semester1, floor(Semester2) as Semester2, MarkGrowth from students;
+SELECT StudentID, FirstName, LastName, FLOOR(Semester1) AS Semester1, FLOOR(Semester2) AS Semester2, MarkGrowth FROM students;

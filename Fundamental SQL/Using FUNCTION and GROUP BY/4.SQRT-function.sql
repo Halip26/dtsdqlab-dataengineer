@@ -1,1 +1,1 @@
-select StudentID, FirstName, LastName, sqrt(Semester1) as Semester1, Semester2, MarkGrowth from students;
+SELECT StudentID, FirstName, LastName, SQRT(Semester1) AS Semester1, Semester2, MarkGrowth FROM students;

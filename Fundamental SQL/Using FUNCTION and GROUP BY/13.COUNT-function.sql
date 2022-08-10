@@ -1,1 +1,1 @@
-select count(FirstName) as Total_Student from students;
+SELECT COUNT(FirstName) as Total_Student FROM students;

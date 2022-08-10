@@ -1,1 +1,1 @@
-select StudentID, FirstName, length(Firstname) as Total_Char from students;
+SELECT StudentID, FirstName, LENGTH(Firstname) as Total_Char FROM students;

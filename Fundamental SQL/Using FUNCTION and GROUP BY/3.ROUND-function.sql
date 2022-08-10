@@ -1,1 +1,1 @@
-select StudentID, FirstName, LastName, round(Semester1, 1) as Semester1, round(Semester1, 0) as Semester2, MarkGrowth from students;
+SELECT StudentID, FirstName, LastName, ROUND(Semester1, 1) AS Semester1, ROUND(Semester2, 0) AS Semester2, MarkGrowth FROM students;

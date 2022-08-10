@@ -1,1 +1,1 @@
-select StudentID, FirstName, LastName, Semester1, Semester2, abs(markgrowth) as MarkGrowth from students;
+SELECT StudentID, FirstName, LastName, Semester1, Semester2, ABS(markgrowth) AS MarkGrowth FROM students;
