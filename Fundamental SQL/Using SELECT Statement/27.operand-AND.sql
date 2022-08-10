@@ -1,1 +1,1 @@
-select * from ms_produk where nama_produk='Gantungan Kunci DQLab' and harga < 50000;
+SELECT * FROM ms_produk WHERE nama_produk='Gantungan Kunci DQLab' AND harga < 50000;
