@@ -1,2 +1,2 @@
-select * from tr_penjualan;
-select * from ms_produk;
+SELECT * FROM tr_penjualan;
+SELECT * FROM ms_produk;

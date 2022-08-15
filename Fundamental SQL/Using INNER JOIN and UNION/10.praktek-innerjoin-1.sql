@@ -1,1 +1,1 @@
-select * from ms_item_warna inner join ms_item_kategori on ms_item_warna.nama_barang = ms_item_kategori.nama_item;
+SELECT * FROM ms_item_warna inner JOIN ms_item_kategori ON ms_item_warna.nama_barang = ms_item_kategori.nama_item;

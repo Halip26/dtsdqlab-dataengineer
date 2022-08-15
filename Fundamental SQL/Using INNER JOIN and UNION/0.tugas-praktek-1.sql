@@ -1,2 +1,2 @@
-select * from ms_item_kategori;
-select * from ms_item_warna;
+SELECT * FROM ms_item_kategori;
+SELECT * FROM ms_item_warna;

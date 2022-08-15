@@ -1,1 +1,1 @@
-select CustomerName, ContactName, City, PostalCode from Customers UNION select SupplierName, ContactName, City, PostalCode from Suppliers;
+SELECT CustomerName, ContactName, City, PostalCode FROM Customers UNION SELECT SupplierName, ContactName, City, PostalCode from Suppliers;

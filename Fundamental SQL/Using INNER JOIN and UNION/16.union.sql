@@ -1,1 +1,1 @@
-select * from tabel_A UNION select * from tabel_B;
+SELECT * FROM tabel_A UNION SELECT * FROM tabel_B;
