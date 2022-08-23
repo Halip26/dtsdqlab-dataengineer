@@ -1,5 +1,10 @@
+import pandas as pd
+import numpy as np
+import io
+import pandas_profiling
+
 # Baca dataset uncleaned_raw.csv
-uncleaned_raw = pd.read_csv('https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/uncleaned_raw.csv')
+uncleaned_raw = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/uncleaned_raw.csv')
 
 #inspeksi dataframe uncleaned_raw
 print('Lima data teratas:') 

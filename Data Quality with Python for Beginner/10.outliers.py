@@ -1,3 +1,9 @@
+import pandas as pd
+import numpy as np
+import io
+import pandas_profiling
+retail_raw = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/retail_raw_reduced_data_quality.csv')
+
 # Q1, Q3, dan IQR
 Q1 = retail_raw['quantity'].quantile(0.25)
 Q3 = retail_raw['quantity'].quantile(0.75)

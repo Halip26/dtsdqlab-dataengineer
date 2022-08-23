@@ -1,3 +1,11 @@
+import pandas as pd
+import numpy as np
+import io
+import pandas_profiling
+
+# Baca dataset uncleaned_raw.csv
+uncleaned_raw = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/uncleaned_raw.csv')
+
 #Check IQR
 Q1 = uncleaned_raw['UnitPrice'].quantile(0.25)
 Q3 = uncleaned_raw['UnitPrice'].quantile(0.75)
