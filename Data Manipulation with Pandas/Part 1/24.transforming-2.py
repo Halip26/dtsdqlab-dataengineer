@@ -1,6 +1,6 @@
 import pandas as pd
 # Baca file sample_csv.csv
-df = pd.read_csv("https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/sample_csv.csv")
+df = pd.read_csv("https://storage.googleapis.com/dqlab-dataset/sample_csv.csv")
 # Tampilkan tipe data
 print("Tipe data df:\n", df.dtypes)
 # Ubah tipe data kolom quantity menjadi tipe data numerik float

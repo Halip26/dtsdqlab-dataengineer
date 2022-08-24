@@ -2,7 +2,7 @@ import pandas as pd
 
 # 1. Baca dataset
 print("[1] BACA DATASET")
-df = pd.read_csv("https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/retail_raw_test.csv", low_memory=False)
+df = pd.read_csv("https://storage.googleapis.com/dqlab-dataset/retail_raw_test.csv", low_memory=False)
 print("    Dataset:\n", df.head())
 print("    Info:\n", df.info())
 

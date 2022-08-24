@@ -1,6 +1,6 @@
 import pandas as pd
 # Baca file sample_csv.csv
-df = pd.read_csv("https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/sample_csv.csv")
+df = pd.read_csv("https://storage.googleapis.com/dqlab-dataset/sample_csv.csv")
 # Cetak 5 baris teratas kolom brand
 print("Kolom brand awal:\n", df["brand"].head())
 # Gunakan method apply untuk merubah isi kolom menjadi lower case

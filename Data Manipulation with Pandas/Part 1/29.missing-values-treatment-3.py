@@ -1,6 +1,6 @@
 import pandas as pd
-# Baca file "public data covid19 jhu csse eu.csv"
-df = pd.read_csv("https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/CHAPTER+4+-+missing+value+-+public+data+covid19+.csv")
+# Baca file "https://storage.googleapis.com/dqlab-dataset/datacovid19.csv"
+df = pd.read_csv("https://storage.googleapis.com/dqlab-dataset/datacovid19.csv")
 # Cetak unique value pada kolom province_state
 print("Unique value awal:\n", df["province_state"].unique())
 # Ganti missing value dengan string "unknown_province_state"
