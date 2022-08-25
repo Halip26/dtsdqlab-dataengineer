@@ -13,5 +13,5 @@ df2 = pd.DataFrame({
 }).set_index(['key', 'val3'])
 print('Dataframe 2:\n', df2)
 # Merge dataframe yang memiliki multi index
-df_merge = pd.merge(df1.reset_index(), df2.reset_index())
+df_merge = pd.merge(df1.reset_index(),df2.reset_index())
 print('Merging dataframe:\n', df_merge)
