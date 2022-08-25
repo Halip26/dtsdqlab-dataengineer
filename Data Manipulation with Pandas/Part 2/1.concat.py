@@ -11,5 +11,5 @@ print("Row-wise - concat:\n", row_wise_concat)
 col_wise_concat = pd.concat([df2, df1], axis=1)
 print("Column-wise - concat:\n", col_wise_concat)
 # Penambahan identifier --> membentuk hasil penggabungan multiindex
-multiindex_concat = pd.concat([df2, df1], axis=0, keys=['df1', 'df2'])
+multiindex_concat = pd.concat([df2, df1], axis=0, keys=['df2', 'df1'])
 print("Multiindex - concat:\n", multiindex_concat)
