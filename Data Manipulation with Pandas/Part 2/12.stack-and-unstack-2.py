@@ -9,12 +9,12 @@ data = pd.DataFrame({
 data = data.set_index(['kelas','murid','pelajaran'])
 data_unstack = data.unstack(level=1)
 print('Dataframe:\n', data_unstack)
-# [1] Stacking dataframe
+# [1] Stacking dataframe
 data_stack = data_unstack.stack()
 print('Stacked dataframe:\n', data_stack)
 # [2] Tukar posisi index setelah stacking dataframe
 data_swap = data_stack.swaplevel(1,2)
 print('Swapped data:\n', data_swap)
-# [3] Melakukan sort_index pada stacking dataframe
+# [3] Melakukan sort_index pada stacking dataframe
 data_sort = data_swap.sort_index()
 print('Sorted data:\n', data_sort)

@@ -1,3 +1,24 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+retail_data1 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_1_until_3_reduce.csv')
+retail_data2 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_4_until_6_reduce.csv')
+retail_data3 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_7_until_9_reduce.csv')
+retail_data4 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_10_until_12_reduce.csv')
+
+retail_table = pd.concat([retail_data1, retail_data2, retail_data3, retail_data4])
+
+cek = retail_table.loc[(retail_table['item_price'] < 0) | (retail_table['total_price'] < 0)]
+if cek.shape[0] != 0:
+	retail_table = retail_table.loc[(retail_table['item_price'] > 0) & (retail_table['total_price'] > 0)]
+
+cek = retail_table.loc[retail_table['order_id'] == 'undefined']
+if cek.shape[0] != 0:
+	retail_table = retail_table.loc[retail_table['order_id'] != 'undefined']
+
+retail_table['order_id'] = retail_table['order_id'].astype('int64')
+retail_table['order_date'] = pd.to_datetime(retail_table['order_date'])
+
 # [4]. Filter hanya 5 province terbesar di pulau Jawa
 print('\nFILTER 5 PROVINCE TERBESAR DI PULAU JAWA\n')
 java = ['DKI Jakarta','Jawa Barat','Jawa Tengah','Jawa Timur','Yogyakarta']

@@ -1,3 +1,13 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+retail_data1 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_1_until_3_reduce.csv')
+retail_data2 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_4_until_6_reduce.csv')
+retail_data3 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_7_until_9_reduce.csv')
+retail_data4 = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/10%25_original_randomstate%3D42/retail_data_from_10_until_12_reduce.csv')
+
+retail_table = pd.concat([retail_data1, retail_data2, retail_data3, retail_data4])
+
 # [3]. Transformasi Data
 print('TRANSFORMASI DATA\n\n')
 #      Memastikan data yang memiliki item_price < 0 atau total_price < 0

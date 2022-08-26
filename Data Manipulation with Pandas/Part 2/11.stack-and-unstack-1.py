@@ -10,7 +10,7 @@ print('Dataframe:\n', data)
 # Set index data untuk kolom kelas, murid, dan pelajaran
 data = data.set_index(['kelas', 'murid', 'pelajaran'])
 print('Dataframe multi index:\n', data)
-# [1] Unstacking dataframe
+# [1] Unstacking dataframe
 data_unstack_1 = data.unstack()
 print('Unstacking dataframe:\n', data_unstack_1)
 # [2] Unstacking dengan specify level name
