@@ -1,1 +1,1 @@
-select no_urut as nomor, nama_produk as nama from ms_produk;
+SELECT no_urut as nomor, nama_produk as nama FROM ms_produk;

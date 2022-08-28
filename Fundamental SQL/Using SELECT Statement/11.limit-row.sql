@@ -1,1 +1,1 @@
-select nama_produk, harga from ms_produk limit 5;
+SELECT nama_produk, harga FROM ms_produk limit 5;

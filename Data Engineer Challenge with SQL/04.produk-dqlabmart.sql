@@ -1,0 +1,1 @@
+SELECT * FROM ms_produk WHERE harga BETWEEN 50000 AND 150000; 

@@ -1,1 +1,1 @@
-select distinct nama_customer, alamat from ms_pelanggan;
+SELECT DISTINCT nama_customer, alamat FROM ms_pelanggan;

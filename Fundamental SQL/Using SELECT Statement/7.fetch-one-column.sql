@@ -1,1 +1,1 @@
-select nama_produk from ms_produk;
+SELECT nama_produk FROM ms_produk;
