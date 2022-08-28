@@ -1,1 +1,1 @@
-SELECT ms_pelanggan.kode_pelanggan, nama_pelanggan, alamat FROM ms_pelanggan WHERE kode_pelanggan NOT IN (SELECT tr_penjualan.kode_pelanggan from tr_penjualan);
+SELECT ms_pelanggan.kode_pelanggan, nama_pelanggan, alamat FROM ms_pelanggan WHERE kode_pelanggan NOT IN (SELECT tr_penjualan.kode_pelanggan FROM tr_penjualan);
