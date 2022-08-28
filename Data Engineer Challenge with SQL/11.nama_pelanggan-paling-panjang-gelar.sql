@@ -1,0 +1,1 @@
+SELECT nama_pelanggan FROM ms_pelanggan WHERE length(nama_pelanggan) in (SELECT (max(length(nama_pelanggan))) FROM ms_pelanggan) or length(nama_pelanggan) in (SELECT (min(length(nama_pelanggan))) FROM ms_pelanggan) ORDER BY length(nama_pelanggan) desc;
