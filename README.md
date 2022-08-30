@@ -1,18 +1,18 @@
-# DQLab Data Analyst Career Track
+# DQLab Data Analyst/Data Engineer Career Track
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Halip26/dtsdqlab-dataengineer/master/assets/dqlab.png" />
 </p>
 
 ## 🌟 About
-[DQLab Data Analyst Career Track](https://academy.dqlab.id/main/track/67) membantu membangun kompetensi yang dibutuhkan untuk berkarir sebagai Junior Data Analyst. Kurikulum terstruktur untuk melatih problem-solving dan kreativitas, serta dikemas dengan studi kasus yang mencerminkan kondisi data riil di Indonesia. Kelas Data Analyst Career Track (Python) dirancang oleh 7 ahli data, dari beragam Industri seperti Traveloka, PT. BUMA, Kompas.com, dan GOJEK.
+[DQLab Data Analyst/Data Engineer Career Track](https://academy.dqlab.id/main/track/67) membantu membangun kompetensi yang dibutuhkan untuk berkarir sebagai Junior Data Analyst. Kurikulum terstruktur untuk melatih problem-solving dan kreativitas, serta dikemas dengan studi kasus yang mencerminkan kondisi data riil di Indonesia. Kelas Data Analyst Career Track (Python) dirancang oleh 7 ahli data, dari beragam Industri seperti Traveloka, PT. BUMA, Kompas.com, dan GOJEK.
 
 <img src="https://raw.githubusercontent.com/Halip26/dtsdqlab-dataengineer/master/assets/dqlab-DACT.png" /><br>
 
 <!-- TABLE OF CONTENTS -->
 ## 📚 Table of Contents
 
-- [DQLab Data Analyst Career Track](#dqlab-data-analyst-career-track)
+- [DQLab Data Analyst/Data Engineer Career Track](#dqlab-data-analystdata-engineer-career-track)
   - [🌟 About](#-about)
   - [📚 Table of Contents](#-table-of-contents)
     - [ℹ️ You must login to DQLab to access links below. Do not have an account? You can register [here](https://dqlab.id/).](#ℹ️-you-must-login-to-dqlab-to-access-links-below-do-not-have-an-account-you-can-register-here)

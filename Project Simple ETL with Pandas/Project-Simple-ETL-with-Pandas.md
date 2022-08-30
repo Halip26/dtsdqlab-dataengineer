@@ -163,4 +163,5 @@ Detail dari fungsi tersebut bisa dilihat pada dokumentasi Pandas: **https://pand
 ## Quiz 3
 > ![image](https://user-images.githubusercontent.com/36031213/163116482-2887e089-11cd-4bad-b8e8-46166cf1e0c2.png)
 
-> ![image]()
+## My certificate of completion
+> ![image](/assets/certificate-DQLABDEPROGHEVVG.png)
